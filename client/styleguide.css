@@ -1,3 +1,12 @@
+/*#1d77b4 AC BLUE*/
+
+.sg-logo img {
+    max-width: 130px;
+    position: relative;
+    top: 10px;
+    margin-top: -23px;
+}
+
 .sg {
     margin: 0;
     padding: 0;
@@ -11,15 +20,16 @@
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #ddd;
+    background-color: #1d77b4;
+    color: #fff;
 }
 
 .sg-header a {
-    color: #000;
+    color: #fff;
 }
 
 .sg-header a:hover {
-    background-color: #ddd;
+    /*background-color: #ddd;*/
     text-decoration: underline;
 }
 
@@ -44,7 +54,7 @@
     max-width: 20px;
     max-height: 20px;
     background-color: transparent;
-    color: #000;
+    color: #fff;
     fill: currentColor;
     margin-bottom: -5px;
 }
@@ -79,7 +89,7 @@
     padding-left: 0;
     left: -9999px;
     padding-top: 10px;
-    border-bottom: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
     max-height: calc(100vh - 44px);
     overflow-y: auto;
 }
@@ -88,8 +98,8 @@
     float: none;
     margin-right: 0;
     padding: 0;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    /*border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;*/
 }
 
 .sg-nav ul a {
@@ -101,7 +111,7 @@
 }
 
 .sg-nav li:hover a {
-    background-color: #ddd;
+    background-color: #1d77b4;
     text-decoration: underline;
 }
 
@@ -110,7 +120,7 @@
 }
 
 .sg-nav li:hover ul li a:hover {
-    background-color: #bbb;
+    background-color: #3DA5CE;
 }
 
 .sg-main {
@@ -138,9 +148,10 @@
     bottom: 0;
     left: 0;
     right: 0;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     height: 100%;
     transition: width 0.3s ease-in;
+    border: 0;
 }
 
 .sg-main iframe.animate {
@@ -157,7 +168,7 @@
 .sg-tpl {
     margin-top: 2em;
     color: #cccccc;
-    border-top: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;*/
 }
 .sg-tpl.hide {
     display: none;
@@ -195,7 +206,7 @@
         height: 24px;
         margin: 14px 0 0 16px;
         padding-left: 16px;
-        border-left: 1px solid #a8a8a8;
+        border-left: 1px solid #fff;
     }
 
     .sg-sizes li {
@@ -216,7 +227,7 @@
     .sg-current-width {
         margin-top: 14px;
         padding: 4px 1em;
-        border-right: 1px solid #a8a8a8;
+        border-right: 1px solid #fff;
     }
 
     .sg-toggle-source {
