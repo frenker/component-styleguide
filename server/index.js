@@ -28,7 +28,7 @@ module.exports = function start(options) {
     options = options || {};
 
     var ext = options.ext || defaults.ext,
-        componentDir = options.components || defaults.components,
+        componentDir = '../styleguide/components',
         rootName = options.rootName || defaults.rootName,
         dataDir = options.data || defaults.data,
         staticLocalDir = options.staticLocalDir || options.static || defaults.staticLocalDir,
